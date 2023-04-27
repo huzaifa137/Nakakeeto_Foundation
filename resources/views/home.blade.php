@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="/assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -83,21 +84,10 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="{{route('home')}}" class="nav-item nav-link active">Home</a>
                 <a href="{{route('about')}}" class="nav-item nav-link">About</a>
-                <a href="{{route('service')}}" class="nav-item nav-link">Service</a>
-                <a href="{{route('projects')}}" class="nav-item nav-link">Project</a>
-                {{-- <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu bg-light m-0">
-                        <a href="feature.html" class="dropdown-item">Feature</a>
-                        <a href="quote.html" class="dropdown-item">Free Quote</a>
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div> --}}
+                <a href="{{route('service')}}" class="nav-item nav-link">Services</a>
                 <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="{{route('contact')}}" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">CONTACT US<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -113,8 +103,8 @@
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
                                 <h1 class="display-2 text-white animated slideInDown">Pioneers For Women Rights And Advocay</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" id="welcome_top" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Supporting the implementation of policies and commitments on women’s participation in peace processes through strategic advocacy.</p>
+                                <a href="{{route('about')}}" id="welcome_top" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -127,8 +117,8 @@
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
                                 <h1 class="display-2 text-white animated slideInDown">Women's Voices Are Heard And Valued</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Transforming the society where democracy is inclusive, and women's voices are heard and valued.</p>
+                                <a href="{{route('about')}}" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -141,8 +131,8 @@
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
                                 <h1 class="display-2 text-white animated slideInDown">Peace, Security And Development</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Our mission is focused on promoting inclusive democratic processes, peace, and security</p>
+                                <a href="{{route('about')}}" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -243,11 +233,10 @@
                     <h1 class="mb-4">Our Objectives:</h1>
                     {{-- <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p> --}}
                         <p class="mb-2 pb-2" style="text-align: justify"><i class="fa fa-check-circle text-primary me-3"></i>To support the implementation of policies and commitments on women’s participation in peace processes through strategic advocacy.</p>
-                        <p class="mb-2 pb-2" style="text-align: justify"><i class="fa fa-check-circle text-primary me-3"></i>To support the implementation of policies and commitments on women’s participation in peace processes through strategic advocacy.</p>
-                        <p class="mb-2 pb-2" style="text-align: justify"><i class="fa fa-check-circle text-primary me-3"></i>To support the implementation of policies and commitments on women’s participation in peace processes through strategic advocacy.</p>
-                        <p class="mb-2 pb-2" style="text-align: justify"><i class="fa fa-check-circle text-primary me-3"></i>To support the implementation of policies and commitments on women’s participation in peace processes through strategic advocacy.</p>
-                        <p class="mb-2 pb-2" style="text-align: justify"><i class="fa fa-check-circle text-primary me-3"></i>To support the implementation of policies and commitments on women’s participation in peace processes through strategic advocacy.</p>
-                        <a href="{{route('about')}}" class="btn btn-primary rounded-pill py-3 px-5 mt-3 mb-3">Join Us</a>
+                        <p class="mb-2 pb-2" style="text-align: justify"><i class="fa fa-check-circle text-primary me-3"></i>To strengthen capacities for women in Track 1,2, and 3 mediation to ensure the meaningful participation of women at all levels in peace processes and promote the inclusion of women-specific issues in conflict prevention, mediation, and peace processes.</p>
+                        <p class="mb-2 pb-2" style="text-align: justify"><i class="fa fa-check-circle text-primary me-3"></i>To support institutional development, including resource mobilization, human resources, governance systems, maintaining a robust monitoring, evaluation, accountability learning system, and ensuring sustainability.</p>
+                        <p class="mb-2 pb-2" style="text-align: justify"><i class="fa fa-check-circle text-primary me-3"></i>To establish partnerships with like-minded national, regional, and international institutions, networks and academia, private sector, and media on advocacy, research, and knowledge exchange.</p>
+                        <a href="{{route('contact')}}" class="btn btn-primary rounded-pill py-3 px-5 mt-3 mb-3">Join Us</a>
                         <p style="text-align: justify">We welcome individuals and organizations that share our vision, mission, and objectives to join us. Become a member of our organization and contribute to promoting democracy, peace, and security.</p>
                     </div>
             </div>
@@ -267,7 +256,7 @@
     <div class="container-xxl py-2">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h5 class="text-primary">Our Services and Objectives</h5>
+                <h5 class="text-primary">Our Services And Objectives</h5>
                 <h2 >Our Areas Of Focus </h2>
             </div>
             <div class="row g-4">
@@ -276,11 +265,11 @@
                         <img class="img-fluid" src="/assets/img/img-600x400-1.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-solar-panel fa-3x"></i>
+                                <i class="fas fa-heart fa-3x"></i>
                             </div>
                             <h4 class="mb-3">Conflict Resolution</h4>
                             <p style="text-align: justify" >Conflict resolution is the process of resolving disputes or disagreements between...</p>
-                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <a class="small fw-medium" href="{{route('Conflict-Resolution')}}">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -289,11 +278,11 @@
                         <img class="img-fluid" src="/assets/img/img-600x400-2.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-wind fa-3x"></i>
+                                <i class="fas fa-gavel fa-3x"></i>
                             </div>
                             <h4 class="mb-3">Social Justice</h4>
                             <p style="text-align: justify">Social justice refers to the fair and equitable distribution of resources, opportunities...</p>
-                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <a class="small fw-medium" href="{{route('Social-Justice')}}">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -306,7 +295,7 @@
                             </div>
                             <h4 class="mb-3">Political Advocacy</h4>
                             <p style="text-align: justify">Political advocacy involves promoting a particular political agenda or cause through...</p>
-                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <a class="small fw-medium" href="{{route('Political-Advocacy')}}">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -315,11 +304,11 @@
                         <img class="img-fluid" src="/assets/img/img-600x400-4.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-solar-panel fa-3x"></i>
+                                <i class='fas fa-users fa-3x'></i>
                             </div>
                             <h4 class="mb-3">Human Rights Advocacy</h4>
                             <p style="text-align: justify">Human rights advocacy involves promoting and defending the rights of individuals...</p>
-                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <a class="small fw-medium" href="{{route('Human-Rights-Advocacy')}}">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -328,11 +317,11 @@
                         <img class="img-fluid" src="/assets/img/img-600x400-5.jpg" alt="">
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon">
-                                <i class="fa fa-wind fa-3x"></i>
+                                <i class='fas fa-smog fa-3x'></i>
                             </div>
                             <h5 class="mb-3">Natural Resource Management</h5>
                             <p style="text-align: justify">Natural resource management involves the sustainable use and conservation of natural...</p>
-                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                            <a class="small fw-medium" href="{{route('Natural-Resource-Management')}}">Read More<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>

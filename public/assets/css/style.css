@@ -574,3 +574,18 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+.demoInfo{
+    /* height: auto!important; */
+    width: 45%!important;
+}
+
+@media (max-width: 768px) { 
+    .pic1{
+        display: none!important;
+    }
+
+    .demoInfo{
+        width: 100%!important;
+    }
+ }

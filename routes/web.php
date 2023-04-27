@@ -18,6 +18,11 @@ use App\Http\Controllers\master;
 Route::get('/',[master::class,'home'])->name('home');
 Route::get('about',[master::class,'about'])->name('about');
 Route::get('services',[master::class,'service'])->name('service');
-Route::get('projects',[master::class,'projects'])->name('projects');
 Route::get('contact',[master::class,'contact'])->name('contact');
 
+
+Route::view('Social-Justice', 'SocialJustice')->name('Social-Justice');
+Route::view('Political-Advocacy', 'PoliticalAdvocacy')->name('Political-Advocacy');
+Route::view('Conflict-Resolution', 'ConflictResolution')->name('Conflict-Resolution');
+Route::view('Human-Rights-Advocacy', 'HumanRightsAdvocacy')->name('Human-Rights-Advocacy');
+Route::view('Natural-Resource-Management', 'NaturalResourceManagement')->name('Natural-Resource-Management');

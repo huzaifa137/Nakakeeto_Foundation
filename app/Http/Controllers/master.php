@@ -18,10 +18,6 @@ class master extends Controller
         return view('service');
     }
 
-    public function projects(){
-        return view('project');
-    }
-
     public function contact(){
         return view('contact');
     }
