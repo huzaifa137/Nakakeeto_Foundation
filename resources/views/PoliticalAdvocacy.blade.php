@@ -20,10 +20,10 @@
             <div class="row">
                 <div class="col-lg-12" data-wow-delay="0.1s">
                     <div class="rounded overflow-hidden">
-                        <img class="img-fluid demoInfo" src="/assets/img/img-600x400-3.jpg" alt="">
-                        <img class="img-fluid demoInfo pic1" src="/assets/img/img-600x400-3.jpg" alt="">
+                        {{-- <img class="img-fluid demoInfo" src="/assets/img/img-600x400-3.jpg" alt="">
+                        <img class="img-fluid demoInfo pic1" src="/assets/img/img-600x400-3.jpg" alt=""> --}}
                         <div class="p-4" style="text-align: justify">
-                            <h5>Our Work</h5>
+                            {{-- <h5>Our Work</h5> --}}
                             <span>Political advocacy involves promoting a particular political agenda or cause through various forms of activism and lobbying. This can involve working with elected officials, organizing campaigns and protests, and engaging in public discourse. Political advocacy aims to influence policy decisions and bring about social change. It can be used to advocate for a variety of issues such as human rights, social justice, environmental protection, and economic reform.</span>
                         </div>
                     </div>

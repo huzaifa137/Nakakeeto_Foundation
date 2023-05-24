@@ -20,10 +20,10 @@
             <div class="row">
                 <div class="col-lg-12" data-wow-delay="0.1s">
                     <div class="rounded overflow-hidden">
-                        <img class="img-fluid demoInfo" src="/assets/img/img-600x400-1.jpg" alt="">
-                        <img class="img-fluid demoInfo pic1" src="/assets/img/img-600x400-1.jpg" alt="">
+                        {{-- <img class="img-fluid demoInfo" src="/assets/img/img-600x400-1.jpg" alt="">
+                        <img class="img-fluid demoInfo pic1" src="/assets/img/img-600x400-1.jpg" alt=""> --}}
                         <div class="p-4" style="text-align: justify">
-                            <h5>Our Work</h5>
+                            {{-- <h5>Our Work</h5> --}}
                             <span>Conflict resolution is the process of resolving disputes or disagreements between two or more parties in a peaceful manner. This can be achieved through various methods such as mediation, negotiation, arbitration, and diplomacy. Conflict resolution is important because it helps to prevent violence and promotes understanding between different groups. It also helps to build trust and relationships between individuals and communities. Some common strategies for conflict resolution include active listening, identifying common ground, and finding win-win solutions.</span>
                         </div>
                     </div>

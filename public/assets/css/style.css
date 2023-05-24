@@ -576,7 +576,6 @@
 }
 
 .demoInfo{
-    /* height: auto!important; */
     width: 45%!important;
 }
 
@@ -590,14 +589,20 @@
     }
  }
 
- /* .logo_resize{
-    width: 14rem;
-    height: 9rem;
- }
 
- @media (max-width: 575.98px) { 
-    .logo_resize{
-        width: 10rem;
-        height: 9rem;
-     } 
-  } */
+
+ @media (min-width: 992px) { 
+
+    .navbar-expand-lg .navbar-collapse{
+        height: 7rem !important;
+     }
+
+  }
+  
+  
+  @media (max-width: 990px) { 
+        .logo_resize{
+            width: 100px !important;;
+            height: 71px !important;;
+        }
+   }

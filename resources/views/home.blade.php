@@ -80,7 +80,7 @@
         <a href="{{route('home')}}" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
             <h2 class="m-0 text-primary"> <img class="logo_resize" src="/assets/img/Logo.png" alt=""> </h2>
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler me-4 pt-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -90,7 +90,7 @@
                 <a href="{{route('service')}}" class="nav-item nav-link">Services</a>
                 <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="{{route('contact')}}" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">CONTACT US<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="{{route('contact')}}" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block me-2">CONTACT US<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->

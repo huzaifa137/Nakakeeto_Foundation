@@ -20,10 +20,10 @@
             <div class="row">
                 <div class="col-lg-12" data-wow-delay="0.1s">
                     <div class="rounded overflow-hidden">
-                        <img class="img-fluid demoInfo" src="/assets/img/img-600x400-5.jpg" alt="">
-                        <img class="img-fluid demoInfo pic1" src="/assets/img/img-600x400-5.jpg" alt="">
+                        {{-- <img class="img-fluid demoInfo" src="/assets/img/img-600x400-5.jpg" alt="">
+                        <img class="img-fluid demoInfo pic1" src="/assets/img/img-600x400-5.jpg" alt=""> --}}
                         <div class="p-4" style="text-align: justify">
-                            <h5>Our Work</h5>
+                            {{-- <h5>Our Work</h5> --}}
                             <span>Natural resource management involves the sustainable use and conservation of natural resources such as forests, water, and wildlife. This involves balancing the needs of human populations with the protection and preservation of natural ecosystems. Effective natural resource management can help to promote biodiversity, reduce the impact of climate change, and provide economic opportunities for local communities. This can be achieved through policies and programs that promote conservation and sustainable use of natural resources.
                                 <br/> <br/> Other thematic areas that are in line with the above goals and objectives include: <br/> <br/>
                                 

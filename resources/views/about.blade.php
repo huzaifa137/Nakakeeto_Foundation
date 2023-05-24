@@ -23,12 +23,12 @@
     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
         <div class="container about px-lg-0">
             <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                {{-- <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute img-fluid w-100 h-100" src="/assets/img/about.jpg" style="object-fit: cover;" alt="">
                     </div>
-                </div>
-                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                </div> --}}
+                <div class="col-lg-12 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <h6 class="text-primary">About Us</h6>
                         <h1 class="mb-4">About Women Defending Democracy</h1>
@@ -100,7 +100,7 @@
 
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden">
-                        <div class="d-flex">
+                        {{-- <div class="d-flex">
                             <img class="img-fluid w-75" src="/assets/img/team-1.jpg" alt="">
                             <div class="team-social w-25">
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fas fa-regular fa-phone"></i></a>
@@ -108,9 +108,9 @@
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="p-4" style="text-align: justify">
-                            <h5>Our Work</h5>
+                            <h5 style="text-align: center">Our Work</h5>
                             <span>We support the implementation of policies and commitments on women’s participation in peace processes through strategic advocacy. We also strengthen capacities for women in mediation, negotiation, conflict resolution, and peace processes to ensure their meaningful participation and promote the inclusion of women-specific issues in conflict prevention, mediation, and peace processes</span>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
 
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden">
-                        <div class="d-flex">
+                        {{-- <div class="d-flex">
                             <img class="img-fluid w-75" src="/assets/img/team-2.jpg" alt="">
                             <div class="team-social w-25">
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fas fa-regular fa-phone"></i></a>
@@ -128,9 +128,9 @@
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="p-4" style="text-align: justify">
-                            <h5>Our Membership</h5>
+                            <h5 style="text-align: center">Our Membership</h5>
                             <span>Our membership consists of Women Democracy Defenders who express interest, are accredited by the Board of Directors, and upon payment of a pre-determined membership fee. We also recognize associate members and honorary members.</span>  <br> <br> <br>
                         </div>
                     </div>
