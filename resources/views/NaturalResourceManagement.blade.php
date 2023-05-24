@@ -24,7 +24,16 @@
                         <img class="img-fluid demoInfo pic1" src="/assets/img/img-600x400-5.jpg" alt="">
                         <div class="p-4" style="text-align: justify">
                             <h5>Our Work</h5>
-                            <span>We support the implementation of policies and commitments on women’s participation in peace processes through strategic advocacy. We also strengthen capacities for women in mediation, negotiation, conflict resolution, and peace processes to ensure their meaningful participation and promote the inclusion of women-specific issues in conflict prevention, mediation, and peace processes</span>
+                            <span>Natural resource management involves the sustainable use and conservation of natural resources such as forests, water, and wildlife. This involves balancing the needs of human populations with the protection and preservation of natural ecosystems. Effective natural resource management can help to promote biodiversity, reduce the impact of climate change, and provide economic opportunities for local communities. This can be achieved through policies and programs that promote conservation and sustainable use of natural resources.
+                                <br/> <br/> Other thematic areas that are in line with the above goals and objectives include: <br/> <br/>
+                                
+                                Climate change mitigation and adaptation<br/> <br/>
+                                Gender equality and women's empowerment<br/> <br/>
+                                Youth development and education<br/> <br/>
+                                Health and well-being<br/> <br/>
+                                Economic development and poverty reduction<br/> <br/>
+                                Cultural preservation and diversity
+                                </span>
                         </div>
                     </div>
                 </div>

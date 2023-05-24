@@ -24,7 +24,7 @@
                         <img class="img-fluid demoInfo pic1" src="/assets/img/img-600x400-1.jpg" alt="">
                         <div class="p-4" style="text-align: justify">
                             <h5>Our Work</h5>
-                            <span>We support the implementation of policies and commitments on women’s participation in peace processes through strategic advocacy. We also strengthen capacities for women in mediation, negotiation, conflict resolution, and peace processes to ensure their meaningful participation and promote the inclusion of women-specific issues in conflict prevention, mediation, and peace processes</span>
+                            <span>Conflict resolution is the process of resolving disputes or disagreements between two or more parties in a peaceful manner. This can be achieved through various methods such as mediation, negotiation, arbitration, and diplomacy. Conflict resolution is important because it helps to prevent violence and promotes understanding between different groups. It also helps to build trust and relationships between individuals and communities. Some common strategies for conflict resolution include active listening, identifying common ground, and finding win-win solutions.</span>
                         </div>
                     </div>
                 </div>

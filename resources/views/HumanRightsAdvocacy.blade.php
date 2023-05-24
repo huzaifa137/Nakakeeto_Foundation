@@ -24,7 +24,7 @@
                         <img class="img-fluid demoInfo pic1" src="/assets/img/img-600x400-4.jpg" alt="">
                         <div class="p-4" style="text-align: justify">
                             <h5>Our Work</h5>
-                            <span>We support the implementation of policies and commitments on women’s participation in peace processes through strategic advocacy. We also strengthen capacities for women in mediation, negotiation, conflict resolution, and peace processes to ensure their meaningful participation and promote the inclusion of women-specific issues in conflict prevention, mediation, and peace processes</span>
+                            <span>Human rights advocacy involves promoting and defending the rights of individuals and groups who have been marginalized or oppressed. This includes rights such as freedom of speech, freedom of religion, and the right to a fair trial. Human rights advocates work to raise awareness of human rights violations, lobby governments and other organizations to uphold these rights, and support individuals and groups who have been affected by human rights abuses.</span>
                         </div>
                     </div>
                 </div>

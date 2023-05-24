@@ -101,27 +101,30 @@
                         <h6 class="text-primary">Talk to us anytime</h6>
                         <h1 class="mb-4">Send us a message </h1>
                         <p class="mb-4 pb-2" style="text-align: justify;">we provide a 24/7 quick response, in case of any query, support, membership, consultation or any other issue, send us a message we shall respond to you as soon as possible</p>
-                        <form>
+                        <form action="{{route('send-message')}}" method="POST">
+                            @csrf
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                    <input type="text" name="name" class="form-control border-0" placeholder="Your Name" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                    <input type="email" name="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                    <input type="text" name="phonenumber" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <select class="form-select border-0" style="height: 55px;">
+                                    <select class="form-select border-0" style="height: 55px;" name="service" required>
                                         <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
+                                        <option name="service" value="1">conflict resolution</option>
+                                        <option name="service" value="2">social justice</option>
+                                        <option name="service" value="3">political Advocacy</option>
+                                        <option name="service" value="4">Human rights Advocacy</option>
+                                        <option name="service" value="5">Natural Resource Management</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                    <textarea class="form-control border-0" name="message" placeholder="Special Note" required></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Submit</button>
@@ -137,7 +140,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
+    {{-- <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h6 class="text-primary">Testimonial</h6>
@@ -185,7 +188,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Testimonial End -->
     
     @include('layouts.Footer')

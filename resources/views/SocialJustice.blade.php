@@ -24,7 +24,7 @@
                         <img class="img-fluid demoInfo pic1" src="/assets/img/team-4.jpg" alt="">
                         <div class="p-4" style="text-align: justify">
                             <h5>Our Work</h5>
-                            <span>We support the implementation of policies and commitments on women’s participation in peace processes through strategic advocacy. We also strengthen capacities for women in mediation, negotiation, conflict resolution, and peace processes to ensure their meaningful participation and promote the inclusion of women-specific issues in conflict prevention, mediation, and peace processes</span>
+                            <span>Social justice refers to the fair and equitable distribution of resources, opportunities, and privileges within a society. It involves addressing issues such as poverty, inequality, discrimination, and oppression. Social justice advocates for the rights of marginalized groups and aims to create a society where everyone has access to the same opportunities and benefits. This can be achieved through policies and programs that promote equity, fairness, and inclusion. Social justice also involves challenging systems and structures that perpetuate inequality and discrimination.</span>
                         </div>
                     </div>
                 </div>

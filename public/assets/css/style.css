@@ -589,3 +589,15 @@
         width: 100%!important;
     }
  }
+
+ /* .logo_resize{
+    width: 14rem;
+    height: 9rem;
+ }
+
+ @media (max-width: 575.98px) { 
+    .logo_resize{
+        width: 10rem;
+        height: 9rem;
+     } 
+  } */

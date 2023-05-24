@@ -26,3 +26,9 @@ Route::view('Political-Advocacy', 'PoliticalAdvocacy')->name('Political-Advocacy
 Route::view('Conflict-Resolution', 'ConflictResolution')->name('Conflict-Resolution');
 Route::view('Human-Rights-Advocacy', 'HumanRightsAdvocacy')->name('Human-Rights-Advocacy');
 Route::view('Natural-Resource-Management', 'NaturalResourceManagement')->name('Natural-Resource-Management');
+
+
+Route::post('subscribe',[master::class,'SubrcibeToNewsletter'])->name('subscribe');
+
+Route::post('send-message',[master::class,'SendMessage'])->name('send-message');
+Route::post('send-message2',[master::class,'SendMessage2'])->name('send-message2');
