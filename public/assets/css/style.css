@@ -1,9 +1,124 @@
 /********** Template CSS **********/
 :root {
-    --primary: #32C36C;
+    --primary: purple !important;
     --light: #F6F7F8;
     --dark: #1A2A36;
 }
+
+.text-primary {
+    color: purple !important; /* Use your desired color */
+}
+
+.btn-primary {
+    background-color: purple; /* Background color for the button */
+    border-color: purple; /* Border color for the button */
+}
+
+.btn-primary:hover {
+    background-color: darkpurple; /* Change color on hover if needed */
+    border-color: darkpurple; /* Border color on hover */
+}
+
+.btn-lg-square.bg-primary {
+    background-color: purple !important; /* Change this to your desired background color */
+}
+
+.btn-outline-primary {
+    border-color: purple !important; /* Change button border color */
+    color: purple !important; /* Change text color */
+}
+
+/* Change the color of the icon */
+.btn-lg-square.bg-primary .fa-users {
+    /* color: purple !important; Change this to your desired icon color */
+}
+
+
+/* Custom CSS */
+
+/* Optional CSS for the list */
+ul {
+    list-style-type: disc; /* Or 'circle', 'square', etc. for different bullet styles */
+    padding-left: 20px; /* Adjust as needed for spacing */
+}
+
+li {
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+/* Style for the link */
+a.small.fw-medium {
+    color: purple; /* Change text color (example: Bootstrap primary blue) */
+    font-weight: 500; /* Medium font weight */
+    text-decoration: none; /* Remove underline from link */
+}
+
+/* Style for the arrow icon */
+a.small.fw-medium .fa-arrow-right {
+    color: purple; /* Change icon color to match text color */
+    margin-left: 0.5rem; /* Adjust spacing between text and icon */
+}
+
+/* Optionally, add hover effect */
+a.small.fw-medium:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: purple; /* Darker color on hover (example) */
+}
+
+
+/* General styling for buttons with border-end and border-secondary */
+.btn-link.border-secondary {
+    border-color: purple !important; /* Change border color */
+}
+
+/* General styling for buttons without border color */
+.btn-link {
+    color: purple !important; /* Change icon color */
+}
+
+/* Specific styling for buttons with different icons */
+.fa-map-marker-alt {
+    color: #FFF !important; /* Change the icon color */
+}
+
+.fa-clock {
+    color: #FFF !important; /* Change the icon color */
+}
+
+/* Style for the clock icon */
+.fa-clock {
+    color: #FFF; /* Change the icon color (example: Bootstrap success green) */
+}
+
+
+.btn-link .fa-facebook-f {
+    color: #FFF !important; /* Facebook icon color */
+}
+
+.btn-link .fa-twitter {
+    color: #FFF !important; /* Twitter icon color */
+}
+
+.btn-link .fa-linkedin-in {
+    color: #FFF !important; /* LinkedIn icon color */
+}
+
+.btn-link .fa-instagram {
+    color: #FFF !important; /* Instagram icon color */
+}
+
+/* Customize button background color on hover */
+.btn-link:hover {
+    background-color: purple !important; /* Background color on hover */
+    color: white !important; /* Icon color on hover */
+}
+
+/* Customize button background color when active */
+.btn-link:active {
+    background-color: darkpurple !important; /* Background color when active */
+    color: white !important; /* Icon color when active */
+}
+
 
 .fw-medium {
     font-weight: 500 !important;
@@ -23,6 +138,10 @@
     right: 45px;
     bottom: 45px;
     z-index: 99;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 
