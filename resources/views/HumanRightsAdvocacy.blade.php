@@ -1,36 +1,55 @@
 @include('layouts.header')
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5">
-        <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Human Rights Advocacy</h1>
-        </div>
+<!-- Page Header Start -->
+<div class="container-fluid page-header py-5 mb-5">
+    <div class="container py-5">
+        <h1 class="display-3 text-primary mb-3 animated slideInDown">Services</h1>
     </div>
-    <!-- Page Header End -->
+</div>
+<!-- Page Header End -->
 
 
-    <!-- Team Start -->
-    <div class="container-xxl pt-1">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h6 class="text-primary">Our Objectives</h6>
-                <h1 class="mb-4">Human Rights Advocacy</h1>
-            </div>
+<!-- Team Start -->
+<div class="container-xxl pt-1">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h1 class="mb-4">Livelihood Projects </h1>
+        </div>
 
 
-            <div class="row">
-                <div class="col-lg-12" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        {{-- <img class="img-fluid demoInfo" src="/assets/img/img-600x400-4.jpg" alt="">
-                        <img class="img-fluid demoInfo pic1" src="/assets/img/img-600x400-4.jpg" alt=""> --}}
-                        <div class="p-4" style="text-align: justify">
-                            {{-- <h5>Our Work</h5> --}}
-                            <span>Human rights advocacy involves promoting and defending the rights of individuals and groups who have been marginalized or oppressed. This includes rights such as freedom of speech, freedom of religion, and the right to a fair trial. Human rights advocates work to raise awareness of human rights violations, lobby governments and other organizations to uphold these rights, and support individuals and groups who have been affected by human rights abuses.</span>
+        <div class="row">
+            <div class="col-lg-12" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden">
+                    <p>Through infrastructure development, water sanitation projects, and youth programs, we work hand
+                        in hand with communities to create an environment where everyone can thrive.</p>
+
+                    <section id="economic-development-programs">
+                        <div class="program">
+                            <p><span><b>1. Sustainable Farming:</b></span> We work with local farmers to implement
+                                sustainable farming practices that increase crop yields and protect the environment.
+                                This includes training on organic farming, crop rotation, and water conservation
+                                techniques.</p>
                         </div>
-                    </div>
+
+                        <div class="program">
+                            <p><span><b>2. Small Business Incubation:</b></span> We support entrepreneurs by providing
+                                them with the tools, knowledge, and financial support needed to start small businesses.
+                                Our incubator programs focus on market access, business management, and scalability.</p>
+                        </div>
+
+                        <div class="program">
+                            <p><span><b>3. Vocational Training:</b></span> We offer vocational training programs
+                                tailored to the needs of the local economy, such as carpentry, masonry, and other trades
+                                that are in demand. These programs provide individuals with the skills needed to secure
+                                stable employment.</p>
+                        </div>
+                    </section>
+
+
                 </div>
             </div>
         </div>
     </div>
-    <!-- Team End -->
+</div>
+<!-- Team End -->
 
 @include('layouts.Footer')

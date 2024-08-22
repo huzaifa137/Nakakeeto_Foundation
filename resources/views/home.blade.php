@@ -33,6 +33,11 @@
     <!-- Template Stylesheet -->
     <link href="/assets/css/style.css" rel="stylesheet">
 
+    <style>
+        .bold-heading {
+            font-weight: bold;
+        }
+    </style>
 
 </head>
 
@@ -98,8 +103,9 @@
                 <a href="{{route('service')}}" class="nav-item nav-link">Services</a>
                 <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="{{route('contact')}}" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block me-2">CONTACT
-                US<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="#" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block me-2">
+                DONATE <i class="fa fa-donate ms-3"></i>
+            </a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -111,7 +117,64 @@
     </div>
     @endif
 
-
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='/assets/img/carousel-1.jpg'>">
+                <img class="img-fluid" src="/assets/img/carousel-1.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown">Pioneers For Women Rights And
+                                    Advocay</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Supporting the implementation of policies
+                                    and commitments on women’s participation in peace processes through strategic
+                                    advocacy.</p>
+                                <a href="{{route('about')}}" id="welcome_top"
+                                    class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative" data-dot="<img src='/assets/img/carousel-2.jpg'>">
+                <img class="img-fluid" src="/assets/img/carousel-2.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown">Women's Voices Are Heard And
+                                    Valued</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Transforming the society where democracy
+                                    is inclusive, and women's voices are heard and valued.</p>
+                                <a href="{{route('about')}}"
+                                    class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative" data-dot="<img src='/assets/img/carousel-3.jpg'>">
+                <img class="img-fluid" src="/assets/img/carousel-3.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown">Peace, Security And Development
+                                </h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Our mission is focused on promoting
+                                    inclusive democratic processes, peace, and security</p>
+                                <a href="{{route('about')}}"
+                                    class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
 
     <!-- Service Start -->
     <div class="container-xxl py-1">
@@ -137,18 +200,11 @@
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <h6 class="text-primary">About Us</h6>
-                        <h2 style="text-align: justify" class="mb-4">2+ Years’ Experience of a diverse network of
-                            advocates and activists</h2>
-                        <p style="text-align: justify">Welcome to Women Defending Democracy, a diverse network of
-                            advocates and activists from the Great Lakes region and diaspora. We are committed to
-                            supporting inclusive democratic processes and preventing violent conflicts resulting from
-                            flawed democracies.</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Strengthening capacities for women in
-                            peace processes </p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Inclusion of women-specific issues in
-                            conflict prevention</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>promoting inclusive democratic processes,
-                            peace, and security</p>
+                        <h2 class="mb-4">Over 2 Years of Experience with a Dedicated Network of Healthcare Professionals and Supporters</h2>
+                        <p style="text-align: justify">Nakakeeto Foundation is a dedicated non-profit organization committed to supporting pregnant women, new mothers, and their newborn babies. Founded with a vision of nurturing life and empowering families, our mission is to ensure that every mother and child receives the care, resources, and support they need to thrive during one of the most critical stages of life.</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Providing comprehensive healthcare and support services to ensure the well-being of pregnant women and newborns.</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Delivering targeted educational programs to empower mothers with essential knowledge about prenatal, postnatal, and infant care.</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Advocating for improved maternal and infant health policies and raising awareness about critical issues affecting mothers and babies.</p>                        
                         <a href="{{route('about')}}" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Explore
                             More</a>
                     </div>
@@ -180,9 +236,8 @@
                             <i class="fa fa-users text-white"></i>
                         </div>
                     </div>
-                    <h5 class="mb-3">Our Vision</h5>
-                    <span>Our vision is a transformed society where democracy is inclusive, and women's voices are heard
-                        and valued.</span>
+                    <h5 class="mb-3">Our Motto</h5>
+                    <span>Nurturing Life, Empowering Mothers</span>
                 </div>
 
 
@@ -192,10 +247,10 @@
                             <i class="fa fa-users-cog text-white"></i>
                         </div>
                     </div>
-                    <h5 class="mb-3">Our Mission</h5>
-                    <span>Our mission is to empower women to participate meaningfully in democratic processes through
-                        strategic advocacy, capacity strengthening, institutional development, and partnerships in the
-                        implementation of commitments made on peace, security, and development.</span>
+                    <h5 class="mb-3">Our Vision</h5>
+                    <span>To create a world where every pregnant woman, mother, and newborn baby receives the support,
+                        care, and resources they need to thrive, ensuring a healthy start to life for every child and
+                        fostering empowered, informed, and supported mothers.</span>
                 </div>
 
 
@@ -212,26 +267,26 @@
                 <div class="col-lg-6 feature-text py-1  wow fadeIn" data-wow-delay="0.1s">
                     <div class="p-lg-5 ps-lg-0">
                         <h1 class="mb-4">Our Objectives</h1>
-                        {{-- <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-                            diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
-                            erat amet</p> --}}
-                        <p class="mb-2 pb-2" style="text-align: justify"><i
-                                class="fa fa-check-circle text-primary me-3"></i>To support the implementation of
-                            policies and commitments on women’s participation in peace processes through strategic
-                            advocacy.</p>
-                        <p class="mb-2 pb-2" style="text-align: justify"><i
-                                class="fa fa-check-circle text-primary me-3"></i>To strengthen capacities for women in
-                            Track 1,2, and 3 mediation to ensure the meaningful participation of women at all levels in
-                            peace processes and promote the inclusion of women-specific issues in conflict prevention,
-                            mediation, and peace processes.</p>
-                        <p class="mb-2 pb-2" style="text-align: justify"><i
-                                class="fa fa-check-circle text-primary me-3"></i>To support institutional development,
-                            including resource mobilization, human resources, governance systems, maintaining a robust
-                            monitoring, evaluation, accountability learning system, and ensuring sustainability.</p>
-                        <p class="mb-2 pb-2" style="text-align: justify"><i
-                                class="fa fa-check-circle text-primary me-3"></i>To establish partnerships with
-                            like-minded national, regional, and international institutions, networks and academia,
-                            private sector, and media on advocacy, research, and knowledge exchange.</p>
+                        <p><span class="bold-heading">Health and Wellness:</span> Provide comprehensive healthcare
+                            services and education to pregnant women and new mothers, including prenatal and postnatal
+                            care.</p>
+
+                        <p><span class="bold-heading">Support Systems:</span> Offer emotional and psychological support
+                            through counseling, support groups, and community outreach programs.</p>
+
+                        <p><span class="bold-heading">Education and Training:</span> Deliver educational resources and
+                            workshops on maternal health, infant care, and parenting skills.</p>
+
+                        <p><span class="bold-heading">Nutritional Assistance:</span> Supply essential nutritional
+                            support and advice to pregnant women and new mothers to ensure proper nourishment for both
+                            mothers and babies.</p>
+
+                        <p><span class="bold-heading">Safe Environments:</span> Promote and facilitate the creation of
+                            safe, supportive environments for mothers and their newborns.</p>
+
+                        <p><span class="bold-heading">Advocacy:</span> Advocate for policies and practices that improve
+                            maternal and infant health at local, national, and international levels.</p>
+
                         <a href="{{route('contact')}}" class="btn btn-primary rounded-pill py-3 px-5 mt-3 mb-3">Learn
                             from us</a>
                     </div>
@@ -254,7 +309,6 @@
         <h1 class="mb-4"> Our impact on the community</h1>
     </div>
 
-
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
@@ -265,8 +319,9 @@
                         </div>
                         <h1 class="mb-0" data-toggle="counter-up">3453</h1>
                     </div>
-                    <h5 class="mb-3">Happy Customers</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                    <h5 class="mb-3">Newborns</h5>
+                    <span>We have successfully supported over 3,453 newborns with comprehensive care and
+                        resources.</span>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                     <div class="d-flex align-items-center mb-4">
@@ -275,8 +330,9 @@
                         </div>
                         <h1 class="mb-0" data-toggle="counter-up">4234</h1>
                     </div>
-                    <h5 class="mb-3">Project Done</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                    <h5 class="mb-3">Mothers</h5>
+                    <span>We have provided care and support to 4,234 mothers, ensuring their well-being and that of
+                        their children.</span>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                     <div class="d-flex align-items-center mb-4">
@@ -285,8 +341,9 @@
                         </div>
                         <h1 class="mb-0" data-toggle="counter-up">3123</h1>
                     </div>
-                    <h5 class="mb-3">Awards Win</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                    <h5 class="mb-3">Hospitals</h5>
+                    <span>Our programs are partnered with 3,123 hospitals to provide the best care for mothers and
+                        newborns.</span>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <div class="d-flex align-items-center mb-4">
@@ -295,12 +352,14 @@
                         </div>
                         <h1 class="mb-0" data-toggle="counter-up">1831</h1>
                     </div>
-                    <h5 class="mb-3">Expert Workers</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
+                    <h5 class="mb-3">Specialists</h5>
+                    <span>We work with 1,831 specialists to ensure expert care and guidance in maternal and infant
+                        health.</span>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Feature Counter End  -->
 
 
@@ -308,7 +367,7 @@
     <div class="container-xxl py-2">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="text-primary">Our Services</h4>
+                <h2 class="text-primary">Our Services</h2>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -318,9 +377,8 @@
                             <div class="service-icon">
                                 <i class="fas fa-heart fa-3x"></i>
                             </div>
-                            <h4 class="mb-3">Conflict Resolution</h4>
-                            <p style="text-align: justify">Conflict resolution is the process of resolving disputes or
-                                disagreements between...</p>
+                            <h4 class="mb-3">Healthcare Outreach </h4>
+                            <p style="text-align: justify">Our healthcare programs focus on offering medical assistance to underserved communities, including health camps, vaccinations, maternal care, and mental health support....</p>
                             <a class="small fw-medium" href="{{route('Conflict-Resolution')}}">Read More<i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
@@ -333,9 +391,8 @@
                             <div class="service-icon">
                                 <i class="fas fa-gavel fa-3x"></i>
                             </div>
-                            <h4 class="mb-3">Social Justice</h4>
-                            <p style="text-align: justify">Social justice refers to the fair and equitable distribution
-                                of resources, opportunities...</p>
+                            <h4 class="mb-3">Educational Initiatives </h4>
+                            <p style="text-align: justify">We provide scholarships, school supplies, and mentorship programs to children and young adults, helping them access quality education and unlock their full potential....</p>
                             <a class="small fw-medium" href="{{route('Social-Justice')}}">Read More<i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
@@ -348,9 +405,8 @@
                             <div class="service-icon">
                                 <i class="fa fa-lightbulb fa-3x"></i>
                             </div>
-                            <h4 class="mb-3">Political Advocacy</h4>
-                            <p style="text-align: justify">Political advocacy involves promoting a particular political
-                                agenda or cause through...</p>
+                            <h4 class="mb-3">Women’s Empowerment</h4>
+                            <p style="text-align: justify">We offer training and support to women in various skill-based industries, fostering economic independence and leadership within their communities....</p>
                             <a class="small fw-medium" href="{{route('Political-Advocacy')}}">Read More<i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
@@ -363,9 +419,8 @@
                             <div class="service-icon">
                                 <i class='fas fa-users fa-3x'></i>
                             </div>
-                            <h4 class="mb-3">Human Rights Advocacy</h4>
-                            <p style="text-align: justify">Human rights advocacy involves promoting and defending the
-                                rights of individuals...</p>
+                            <h4 class="mb-3">Livelihood Projects</h4>
+                            <p style="text-align: justify">Nakakeeto Foundation promotes sustainable farming, small business development, and entrepreneurship, creating employment opportunities for families and individuals....</p>
                             <a class="small fw-medium" href="{{route('Human-Rights-Advocacy')}}">Read More<i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
@@ -378,9 +433,8 @@
                             <div class="service-icon">
                                 <i class='fas fa-smog fa-3x'></i>
                             </div>
-                            <h5 class="mb-3">Natural Resource Management</h5>
-                            <p style="text-align: justify">Natural resource management involves the sustainable use and
-                                conservation of natural...</p>
+                            <h5 class="mb-3">Community Development </h5>
+                            <p style="text-align: justify">Through infrastructure development, water sanitation projects, and youth programs, we work hand in hand with communities to create an environment where everyone can thrive...</p>
                             <a class="small fw-medium" href="{{route('Natural-Resource-Management')}}">Read More<i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
@@ -395,60 +449,63 @@
 
 
     <!-- Patterners Start -->
+
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="mb-4">Our Patterners </h1>
+                <h1 class="mb-4">Our Partners</h1>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-1.jpg">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-1.jpg"
+                            alt="Partner 1">
                         <div class="btn-square rounded-circle" style="background-color:purple;">
                             <i class="fa fa-handshake" style="color: #FFF;"></i>
                         </div>
                         <div class="testimonial-text text-center rounded p-4">
-                            <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
-                                Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum
-                                justo sea clita.</p>
-                            <h5 class="mb-1">Client Name</h5>
-                            <span class="fst-italic">Profession</span>
+                            <p>The Nakakeeto Foundation collaborates with leading healthcare organizations to improve
+                                maternal and infant health. Our partnerships ensure that we provide comprehensive
+                                support and resources to those in need.</p>
+                            <h5 class="mb-1">Dr. Emily Johnson</h5>
+                            <span class="fst-italic">Director of Health Services, Health Alliance</span>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-2.jpg">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-2.jpg"
+                            alt="Partner 2">
                         <div class="btn-square rounded-circle" style="background-color:purple;">
                             <i class="fa fa-handshake" style="color: #FFF;"></i>
                         </div>
                         <div class="testimonial-text text-center rounded p-4">
-                            <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
-                                Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum
-                                justo sea clita.</p>
-                            <h5 class="mb-1">Client Name</h5>
-                            <span class="fst-italic">Profession</span>
+                            <p>Our foundation is grateful for the support from various community organizations that help
+                                us reach more families and provide essential services and education.</p>
+                            <h5 class="mb-1">Carlos Martinez</h5>
+                            <span class="fst-italic">Executive Director, Community Outreach Network</span>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-3.jpg">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-3.jpg"
+                            alt="Partner 3">
                         <div class="btn-square rounded-circle" style="background-color:purple;">
                             <i class="fa fa-handshake" style="color: #FFF;"></i>
                         </div>
                         <div class="testimonial-text text-center rounded p-4">
-                            <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
-                                Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum
-                                justo sea clita.</p>
-                            <h5 class="mb-1">Client Name</h5>
-                            <span class="fst-italic">Profession</span>
+                            <p>Our work is enhanced by the contributions of philanthropic leaders who are committed to
+                                improving global health outcomes and supporting our mission.</p>
+                            <h5 class="mb-1">Lisa Thompson</h5>
+                            <span class="fst-italic">Founder, Global Health Initiative</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Patterners End -->
 
     <!-- Quote Start -->
@@ -463,8 +520,7 @@
                 </div>
                 <div class="col-lg-6 quote-text py-4 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
-                        <h6 class="text-primary">Talk to us anytime</h6>
-                        <h1 class="mb-4">Send us a message </h1>
+                        <h2 class="mb-4 text-primary">Send us a message </h2>
                         <p class="mb-4 pb-2" style="text-align: justify;">we provide a 24/7 quick response, in case of
                             any query, support, membership, consultation or any other issue, send us a message we shall
                             respond to you as soon as possible</p>
@@ -520,52 +576,55 @@
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-1.jpg">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-1.jpg"
+                            alt="Testimonial 1">
                         <div class="btn-square rounded-circle" style="background-color:purple;">
                             <i class="fa fa-quote-left text-white"></i>
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
-                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
+                        <p>"The Nakakeeto Foundation's support has been transformative for our community. Their
+                            comprehensive maternal and infant care programs have made a significant difference in the
+                            lives of many families."</p>
+                        <h5 class="mb-1">Dr. Jane Smith</h5>
+                        <span class="fst-italic">Pediatrician, Local Clinic</span>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-2.jpg">
-                        <div class="btn-square rounded-circle" style="background-color:purple;">
-                            <i class="fa fa-quote-left text-white"></i>
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-2.jpg"
+                            alt="Testimonial 2">
+                            <div class="btn-square rounded-circle" style="background-color:purple;">
+                                <i class="fa fa-quote-left text-white"></i>
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
-                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
+                        <p>"Nakakeeto Foundation's outreach programs have been a beacon of hope. Their dedication to
+                            improving maternal health and providing essential resources is truly commendable."</p>
+                        <h5 class="mb-1">Sarah Johnson</h5>
+                        <span class="fst-italic">Community Outreach Coordinator</span>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-3.jpg">
-                        <div class="btn-square rounded-circle" style="background-color:purple;">
-                            <i class="fa fa-quote-left text-white"></i>
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-3.jpg"
+                            alt="Testimonial 3">
+                            <div class="btn-square rounded-circle" style="background-color:purple;">
+                                <i class="fa fa-quote-left text-white"></i>
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
-                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
+                        <p>"Working with the Nakakeeto Foundation has been an incredible experience. Their commitment to
+                            improving health outcomes and their compassionate approach have greatly impacted our work."
+                        </p>
+                        <h5 class="mb-1">Michael Brown</h5>
+                        <span class="fst-italic">Executive Director, Health Partnership Group</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Testimonial End -->
 
     @include('layouts.Footer')

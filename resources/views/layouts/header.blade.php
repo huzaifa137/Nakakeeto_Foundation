@@ -14,7 +14,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -30,12 +32,13 @@
 
     <!-- Template Stylesheet -->
     <link href="/assets/css/style.css" rel="stylesheet">
-    
+
 </head>
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
@@ -62,10 +65,14 @@
                     <small>(888) W0DD-958</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center mx-n2">
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="javascript:void(0);"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-square btn-link rounded-0" href="javascript:void(0);"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary"
+                        href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary"
+                        href="javascript:void(0);"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary"
+                        href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href="javascript:void(0);"><i
+                            class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -87,7 +94,10 @@
                 <a href="{{route('service')}}" class="nav-item nav-link">Services</a>
                 <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="{{route('contact')}}" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block me-2">CONTACT US<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="#" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block me-2">
+                DONATE <i class="fa fa-donate ms-3"></i>
+            </a>
+
         </div>
     </nav>
     <!-- Navbar End -->
@@ -96,6 +106,6 @@
 
     @if (Session::get('fail'))
     <div class="alert alert-danger">
-     {{Session::get('fail')}}
+        {{Session::get('fail')}}
     </div>
     @endif
