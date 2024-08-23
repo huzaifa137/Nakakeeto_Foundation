@@ -200,11 +200,20 @@
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <h6 class="text-primary">About Us</h6>
-                        <h2 class="mb-4">Over 2 Years of Experience with a Dedicated Network of Healthcare Professionals and Supporters</h2>
-                        <p style="text-align: justify">Nakakeeto Foundation is a dedicated non-profit organization committed to supporting pregnant women, new mothers, and their newborn babies. Founded with a vision of nurturing life and empowering families, our mission is to ensure that every mother and child receives the care, resources, and support they need to thrive during one of the most critical stages of life.</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Providing comprehensive healthcare and support services to ensure the well-being of pregnant women and newborns.</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Delivering targeted educational programs to empower mothers with essential knowledge about prenatal, postnatal, and infant care.</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Advocating for improved maternal and infant health policies and raising awareness about critical issues affecting mothers and babies.</p>                        
+                        <h2 class="mb-4">Over 2 Years of Experience with a Dedicated Network of Healthcare Professionals
+                            and Supporters</h2>
+                        <p style="text-align: justify">Nakakeeto Foundation is a dedicated non-profit organization
+                            committed to supporting pregnant women, new mothers, and their newborn babies. Founded with
+                            a vision of nurturing life and empowering families, our mission is to ensure that every
+                            mother and child receives the care, resources, and support they need to thrive during one of
+                            the most critical stages of life.</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Providing comprehensive healthcare and
+                            support services to ensure the well-being of pregnant women and newborns.</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Delivering targeted educational programs
+                            to empower mothers with essential knowledge about prenatal, postnatal, and infant care.</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Advocating for improved maternal and
+                            infant health policies and raising awareness about critical issues affecting mothers and
+                            babies.</p>
                         <a href="{{route('about')}}" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Explore
                             More</a>
                     </div>
@@ -378,7 +387,9 @@
                                 <i class="fas fa-heart fa-3x"></i>
                             </div>
                             <h4 class="mb-3">Healthcare Outreach </h4>
-                            <p style="text-align: justify">Our healthcare programs focus on offering medical assistance to underserved communities, including health camps, vaccinations, maternal care, and mental health support....</p>
+                            <p style="text-align: justify">Our healthcare programs focus on offering medical assistance
+                                to underserved communities, including health camps, vaccinations, maternal care, and
+                                mental health support....</p>
                             <a class="small fw-medium" href="{{route('Conflict-Resolution')}}">Read More<i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
@@ -392,7 +403,9 @@
                                 <i class="fas fa-gavel fa-3x"></i>
                             </div>
                             <h4 class="mb-3">Educational Initiatives </h4>
-                            <p style="text-align: justify">We provide scholarships, school supplies, and mentorship programs to children and young adults, helping them access quality education and unlock their full potential....</p>
+                            <p style="text-align: justify">We provide scholarships, school supplies, and mentorship
+                                programs to children and young adults, helping them access quality education and unlock
+                                their full potential....</p>
                             <a class="small fw-medium" href="{{route('Social-Justice')}}">Read More<i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
@@ -406,7 +419,9 @@
                                 <i class="fa fa-lightbulb fa-3x"></i>
                             </div>
                             <h4 class="mb-3">Women’s Empowerment</h4>
-                            <p style="text-align: justify">We offer training and support to women in various skill-based industries, fostering economic independence and leadership within their communities....</p>
+                            <p style="text-align: justify">We offer training and support to women in various skill-based
+                                industries, fostering economic independence and leadership within their communities....
+                            </p>
                             <a class="small fw-medium" href="{{route('Political-Advocacy')}}">Read More<i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
@@ -420,7 +435,9 @@
                                 <i class='fas fa-users fa-3x'></i>
                             </div>
                             <h4 class="mb-3">Livelihood Projects</h4>
-                            <p style="text-align: justify">Nakakeeto Foundation promotes sustainable farming, small business development, and entrepreneurship, creating employment opportunities for families and individuals....</p>
+                            <p style="text-align: justify">Nakakeeto Foundation promotes sustainable farming, small
+                                business development, and entrepreneurship, creating employment opportunities for
+                                families and individuals....</p>
                             <a class="small fw-medium" href="{{route('Human-Rights-Advocacy')}}">Read More<i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
@@ -434,7 +451,9 @@
                                 <i class='fas fa-smog fa-3x'></i>
                             </div>
                             <h5 class="mb-3">Community Development </h5>
-                            <p style="text-align: justify">Through infrastructure development, water sanitation projects, and youth programs, we work hand in hand with communities to create an environment where everyone can thrive...</p>
+                            <p style="text-align: justify">Through infrastructure development, water sanitation
+                                projects, and youth programs, we work hand in hand with communities to create an
+                                environment where everyone can thrive...</p>
                             <a class="small fw-medium" href="{{route('Natural-Resource-Management')}}">Read More<i
                                     class="fa fa-arrow-right ms-2"></i></a>
                         </div>
@@ -518,7 +537,7 @@
                             style="object-fit: cover;" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 quote-text py-4 wow fadeIn" data-wow-delay="0.5s">
+                <!-- <div class="col-lg-6 quote-text py-4 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <h2 class="mb-4 text-primary">Send us a message </h2>
                         <p class="mb-4 pb-2" style="text-align: justify;">we provide a 24/7 quick response, in case of
@@ -559,7 +578,24 @@
                             </div>
                         </form>
                     </div>
+                </div> -->
+
+                <div class="col-lg-6 quote-text py-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <h2 class="mb-4 text-primary">Watch our video</h2>
+                        <p class="mb-4 pb-2" style="text-align: justify;">Learn more about our services by watching the
+                            video below. We
+                            cover a variety of topics including conflict resolution, social justice, political advocacy,
+                            human rights
+                            advocacy, and natural resource management.</p>
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -594,8 +630,8 @@
                     <div class="testimonial-img position-relative">
                         <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-2.jpg"
                             alt="Testimonial 2">
-                            <div class="btn-square rounded-circle" style="background-color:purple;">
-                                <i class="fa fa-quote-left text-white"></i>
+                        <div class="btn-square rounded-circle" style="background-color:purple;">
+                            <i class="fa fa-quote-left text-white"></i>
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
@@ -609,8 +645,8 @@
                     <div class="testimonial-img position-relative">
                         <img class="img-fluid rounded-circle mx-auto mb-5" src="/assets/img/testimonial-3.jpg"
                             alt="Testimonial 3">
-                            <div class="btn-square rounded-circle" style="background-color:purple;">
-                                <i class="fa fa-quote-left text-white"></i>
+                        <div class="btn-square rounded-circle" style="background-color:purple;">
+                            <i class="fa fa-quote-left text-white"></i>
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
