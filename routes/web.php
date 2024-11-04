@@ -1,0 +1,38 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\master;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+
+Route::get('/',[master::class,'home'])->name('home');
+Route::get('about',[master::class,'about'])->name('about');
+Route::get('Partners',[master::class,'partners'])->name('Partners');
+Route::get('services',[master::class,'service'])->name('service');
+Route::get('contact',[master::class,'contact'])->name('contact');
+Route::get('support-us',[master::class,'supportUs'])->name('support-us');
+Route::get('news',[master::class,'news'])->name('news');
+Route::get('reports',[master::class,'reports'])->name('reports');
+
+
+Route::view('Social-Justice', 'SocialJustice')->name('Social-Justice');
+Route::view('Political-Advocacy', 'PoliticalAdvocacy')->name('Political-Advocacy');
+Route::view('Conflict-Resolution', 'ConflictResolution')->name('Conflict-Resolution');
+Route::view('Human-Rights-Advocacy', 'HumanRightsAdvocacy')->name('Human-Rights-Advocacy');
+Route::view('Natural-Resource-Management', 'NaturalResourceManagement')->name('Natural-Resource-Management');
+
+
+Route::post('subscribe',[master::class,'SubrcibeToNewsletter'])->name('subscribe');
+
+Route::post('send-message',[master::class,'SendMessage'])->name('send-message');
+Route::post('send-message2',[master::class,'SendMessage2'])->name('send-message2');
